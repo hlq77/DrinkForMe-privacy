@@ -1,0 +1,184 @@
+<title>Drink for me – Datenschutzerklärung</title>
+<style>
+  :root {
+    --bg: #fbfdfd;
+    --surface: #ffffff;
+    --text: #26312f;
+    --muted: #5f6f6c;
+    --line: #dfeae7;
+    --teal: #148ba0;
+    --green: #1f8f72;
+    --gold: #e0a021;
+    --focus: #148ba0;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0e1b1e;
+      --surface: #14262a;
+      --text: #e7f0ee;
+      --muted: #9bb1ad;
+      --line: #23383d;
+      --teal: #4cc6da;
+      --green: #4bc59e;
+      --gold: #f2b845;
+      --focus: #4cc6da;
+    }
+  }
+  :root[data-theme="light"] {
+    --bg: #fbfdfd; --surface: #ffffff; --text: #26312f; --muted: #5f6f6c;
+    --line: #dfeae7; --teal: #148ba0; --green: #1f8f72; --gold: #e0a021; --focus: #148ba0;
+  }
+  :root[data-theme="dark"] {
+    --bg: #0e1b1e; --surface: #14262a; --text: #e7f0ee; --muted: #9bb1ad;
+    --line: #23383d; --teal: #4cc6da; --green: #4bc59e; --gold: #f2b845; --focus: #4cc6da;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 43rem; margin: 0 auto; padding: clamp(1.5rem, 4vw, 3.5rem) 1.25rem 4rem; }
+
+  header.masthead {
+    display: flex; align-items: center; gap: 0.85rem;
+    padding-bottom: 1.4rem; margin-bottom: 2rem;
+    border-bottom: 1px solid var(--line);
+  }
+  .mark {
+    width: 52px; height: 52px; flex: none; border-radius: 15px;
+    display: grid; place-items: center; font-size: 30px;
+    background: linear-gradient(160deg, var(--teal), var(--green));
+    box-shadow: 0 6px 18px -8px var(--teal);
+  }
+  .masthead h1 { font-size: 1.5rem; margin: 0; letter-spacing: -0.01em; }
+  .masthead .sub { margin: 2px 0 0; color: var(--muted); font-size: 0.95rem; }
+
+  .updated {
+    display: inline-block; margin-bottom: 2rem;
+    font-size: 0.8rem; letter-spacing: 0.04em; text-transform: uppercase;
+    color: var(--green); font-weight: 600;
+  }
+
+  .lede {
+    font-size: 1.12rem; color: var(--text);
+    background: var(--surface); border: 1px solid var(--line);
+    border-left: 4px solid var(--green);
+    padding: 1.1rem 1.25rem; border-radius: 12px; margin: 0 0 2.5rem;
+  }
+
+  h2 {
+    font-size: 1.12rem; margin: 2.4rem 0 0.6rem; letter-spacing: -0.005em;
+    text-wrap: balance;
+  }
+  h2::before {
+    content: ""; display: inline-block; width: 0.6rem; height: 0.6rem;
+    margin-right: 0.55rem; border-radius: 50%; background: var(--gold);
+    vertical-align: middle;
+  }
+  p { margin: 0.5rem 0; }
+  ul { margin: 0.5rem 0; padding-left: 1.2rem; }
+  li { margin: 0.3rem 0; }
+  strong { font-weight: 650; }
+  a { color: var(--teal); text-underline-offset: 2px; }
+  a:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; border-radius: 3px; }
+
+  .contact {
+    margin-top: 2.6rem; padding: 1.25rem 1.35rem; border-radius: 12px;
+    background: var(--surface); border: 1px solid var(--line);
+  }
+  .contact h2 { margin-top: 0; }
+  .flag {
+    margin-top: 0.4rem; font-size: 0.85rem; color: var(--muted);
+    border-top: 1px dashed var(--line); padding-top: 0.7rem;
+  }
+  footer {
+    margin-top: 3rem; padding-top: 1.2rem; border-top: 1px solid var(--line);
+    color: var(--muted); font-size: 0.85rem;
+  }
+</style>
+
+<div class="wrap">
+  <header class="masthead">
+    <div class="mark" aria-hidden="true">🌻</div>
+    <div>
+      <h1>Drink for me</h1>
+      <p class="sub">Datenschutzerklärung</p>
+    </div>
+  </header>
+
+  <span class="updated">Stand: 8. September 2026</span>
+
+  <p class="lede">
+    <strong>Kurz gesagt: »Drink for me« erhebt, speichert und überträgt keine personenbezogenen
+    Daten.</strong> Alle Eingaben zu deiner Trinkmenge bleiben ausschließlich auf deinem Gerät.
+  </p>
+
+  <h2>Welche Daten die App verarbeitet</h2>
+  <p>
+    »Drink for me« hilft dir, ausreichend zu trinken. Die dafür nötigen Angaben – deine erfassten
+    Trinkmengen, dein Spielfortschritt (Pflanzen, Wassertropfen, Level, Erfolge, Serien) sowie deine
+    Erinnerungs-Einstellungen – werden <strong>ausschließlich lokal auf deinem iPhone</strong>
+    gespeichert (über Apples SwiftData beziehungsweise die App-Einstellungen).
+  </p>
+
+  <h2>Keine Übertragung an Dritte</h2>
+  <ul>
+    <li>Die App stellt <strong>keine Netzwerkverbindungen</strong> her und sendet keine Daten an uns oder Dritte.</li>
+    <li>Es gibt <strong>kein Nutzerkonto</strong> und keine Anmeldung.</li>
+    <li>Es findet <strong>kein Tracking</strong> und keine Werbung statt; es werden keine Analyse- oder Werbe-Bausteine eingesetzt.</li>
+  </ul>
+
+  <h2>Mitteilungen (Erinnerungen)</h2>
+  <p>
+    Wenn du Trink-Erinnerungen aktivierst, plant die App lokale Mitteilungen direkt auf dem Gerät.
+    Dazu fragt iOS einmalig deine Erlaubnis ab. Es werden dabei keine Daten nach außen übermittelt;
+    du kannst die Erinnerungen jederzeit in der App oder in den iOS-Einstellungen wieder abschalten.
+  </p>
+
+  <h2>Löschen deiner Daten</h2>
+  <p>
+    Über <em>Einstellungen → Spiel zurücksetzen</em> löschst du alle Einträge, Pflanzen und Erfolge
+    unwiderruflich. Deinstallierst du die App, werden sämtliche lokal gespeicherten Daten mit entfernt.
+  </p>
+
+  <h2>Apple App Store</h2>
+  <p>
+    Der Bezug der App erfolgt über den Apple App Store. Auf die dabei von Apple verarbeiteten Daten
+    (etwa Kauf- und Downloadinformationen) haben wir keinen Einfluss; es gilt die
+    <a href="https://www.apple.com/legal/privacy/" rel="noopener">Datenschutzrichtlinie von Apple</a>.
+  </p>
+
+  <h2>Kinder</h2>
+  <p>
+    Die App richtet sich an ein allgemeines Publikum und erhebt keinerlei Daten – auch nicht von Kindern.
+  </p>
+
+  <h2>Gesundheitlicher Hinweis</h2>
+  <p>
+    »Drink for me« ist kein Medizinprodukt und ersetzt keine ärztliche Beratung. Der individuelle
+    Flüssigkeitsbedarf ist unterschiedlich; bei Erkrankungen bespreche deine Trinkmenge bitte ärztlich.
+  </p>
+
+  <div class="contact">
+    <h2>Kontakt</h2>
+    <p>
+      Verantwortlich für diese App und Ansprechpartner bei Fragen zum Datenschutz:<br>
+      Sebastian Fieberg · <a href="mailto:sebastian.fieberg@icloud.com">sebastian.fieberg@icloud.com</a>
+    </p>
+    <p class="flag">
+      Hinweis zum Anpassen: Trage hier deine offizielle Kontaktadresse ein, die du auch in App Store
+      Connect angibst. Möchtest du deine private iCloud-Adresse nicht öffentlich zeigen, richte dafür
+      eine separate Kontakt-E-Mail ein.
+    </p>
+  </div>
+
+  <footer>
+    Diese Erklärung gilt für die iOS-App »Drink for me«. Bei künftigen Funktionsänderungen mit
+    Datenbezug wird sie aktualisiert.
+  </footer>
+</div>
